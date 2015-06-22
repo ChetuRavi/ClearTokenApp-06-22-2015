@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7E7FA01B0E0CB30035413A /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E7F9F1B0E0CB30035413A /* NSData+Hex.m */; };
+		1D7E7FB31B0E0D810035413A /* CBUUID+BlueKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E7FA91B0E0D810035413A /* CBUUID+BlueKit.m */; };
+		1D7E7FB41B0E0D810035413A /* BlueKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E7FAB1B0E0D810035413A /* BlueKit.m */; };
+		1D7E7FB51B0E0D810035413A /* CentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E7FAF1B0E0D810035413A /* CentralManager.m */; };
+		1D7E7FB61B0E0D810035413A /* Peripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E7FB11B0E0D810035413A /* Peripheral.m */; };
+		5E6D156B1B0A32D7007EBC43 /* ClTLoadingActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D156A1B0A32D7007EBC43 /* ClTLoadingActivity.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E7707141B0CB3D600D39250 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7707131B0CB3D600D39250 /* Utility.m */; };
+		5E840F671B05EA6900A03F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F661B05EA6900A03F61 /* main.m */; };
+		5E840F6A1B05EA6900A03F61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F691B05EA6900A03F61 /* AppDelegate.m */; };
+		5E840F721B05EA6900A03F61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E840F711B05EA6900A03F61 /* Images.xcassets */; };
+		5E840F751B05EA6900A03F61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E840F731B05EA6900A03F61 /* LaunchScreen.xib */; };
+		5E840F9B1B05EB0C00A03F61 /* ClTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F901B05EB0C00A03F61 /* ClTReachability.m */; };
+		5E840F9C1B05EB0C00A03F61 /* ClTDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F931B05EB0C00A03F61 /* ClTDataModel.m */; };
+		5E840F9D1B05EB0C00A03F61 /* ClTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F951B05EB0C00A03F61 /* ClTUtility.m */; };
+		5E840F9E1B05EB0C00A03F61 /* ClTWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F971B05EB0C00A03F61 /* ClTWebservice.m */; };
+		5E840F9F1B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840F9A1B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.m */; };
+		5E840FA21B05F49600A03F61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E840FA11B05F49600A03F61 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5E840FA61B05FDDE00A03F61 /* ClTDeviceiInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840FA51B05FDDE00A03F61 /* ClTDeviceiInfoModel.m */; };
+		5E840FAE1B06045E00A03F61 /* ClTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840FAD1B06045E00A03F61 /* ClTHomeViewController.m */; };
+		5E840FB11B0618B500A03F61 /* ClTHomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840FB01B0618B500A03F61 /* ClTHomeViewCell.m */; };
+		5E840FB51B0631C400A03F61 /* ClTBLEServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E840FB41B0631C400A03F61 /* ClTBLEServices.m */; };
+		5E84B6DE1B0DFAAE00B85B0E /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E84B6DD1B0DFAAE00B85B0E /* Images-2.xcassets */; };
+		5E84B6E11B0E12D200B85B0E /* ClTPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B6E01B0E12D200B85B0E /* ClTPhoneViewController.m */; };
+		947388871B068FC4007208D1 /* ClTParkingDeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947388861B068FC4007208D1 /* ClTParkingDeviceInfoViewController.m */; };
+		9473888C1B087EEC007208D1 /* PaymentSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9473888B1B087EEC007208D1 /* PaymentSuccessViewController.m */; };
+		9473889D1B08FB95007208D1 /* ClTTokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9473889C1B08FB95007208D1 /* ClTTokenModel.m */; };
+		947388A31B096F79007208D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947388A11B096F79007208D1 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D7E7F9E1B0E0CB30035413A /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		1D7E7F9F1B0E0CB30035413A /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		1D7E7FA81B0E0D810035413A /* CBUUID+BlueKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+BlueKit.h"; sourceTree = "<group>"; };
+		1D7E7FA91B0E0D810035413A /* CBUUID+BlueKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+BlueKit.m"; sourceTree = "<group>"; };
+		1D7E7FAA1B0E0D810035413A /* BlueKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueKit.h; sourceTree = "<group>"; };
+		1D7E7FAB1B0E0D810035413A /* BlueKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueKit.m; sourceTree = "<group>"; };
+		1D7E7FAD1B0E0D810035413A /* BlueBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueBlocks.h; sourceTree = "<group>"; };
+		1D7E7FAE1B0E0D810035413A /* CentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralManager.h; sourceTree = "<group>"; };
+		1D7E7FAF1B0E0D810035413A /* CentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralManager.m; sourceTree = "<group>"; };
+		1D7E7FB01B0E0D810035413A /* Peripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peripheral.h; sourceTree = "<group>"; };
+		1D7E7FB11B0E0D810035413A /* Peripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peripheral.m; sourceTree = "<group>"; };
+		5E6D15691B0A32D7007EBC43 /* ClTLoadingActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTLoadingActivity.h; sourceTree = "<group>"; };
+		5E6D156A1B0A32D7007EBC43 /* ClTLoadingActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTLoadingActivity.m; sourceTree = "<group>"; };
+		5E7707121B0CB3D600D39250 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		5E7707131B0CB3D600D39250 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		5E840F611B05EA6900A03F61 /* ClearTokenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearTokenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E840F651B05EA6900A03F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E840F661B05EA6900A03F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E840F681B05EA6900A03F61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E840F691B05EA6900A03F61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E840F711B05EA6900A03F61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E840F741B05EA6900A03F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E840F7F1B05EA6900A03F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E840F801B05EA6900A03F61 /* ClearTokenAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearTokenAppTests.m; sourceTree = "<group>"; };
+		5E840F8F1B05EB0C00A03F61 /* ClTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTReachability.h; sourceTree = "<group>"; };
+		5E840F901B05EB0C00A03F61 /* ClTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTReachability.m; sourceTree = "<group>"; };
+		5E840F921B05EB0C00A03F61 /* ClTDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClTDataModel.h; path = ClearTokenApp/Utility/ClTDataModel.h; sourceTree = "<group>"; };
+		5E840F931B05EB0C00A03F61 /* ClTDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClTDataModel.m; path = ClearTokenApp/Utility/ClTDataModel.m; sourceTree = "<group>"; };
+		5E840F941B05EB0C00A03F61 /* ClTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTUtility.h; sourceTree = "<group>"; };
+		5E840F951B05EB0C00A03F61 /* ClTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTUtility.m; sourceTree = "<group>"; };
+		5E840F961B05EB0C00A03F61 /* ClTWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClTWebservice.h; path = ClearTokenApp/Utility/ClTWebservice.h; sourceTree = "<group>"; };
+		5E840F971B05EB0C00A03F61 /* ClTWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClTWebservice.m; path = ClearTokenApp/Utility/ClTWebservice.m; sourceTree = "<group>"; };
+		5E840F981B05EB0C00A03F61 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = ClearTokenApp/Utility/Constant.h; sourceTree = "<group>"; };
+		5E840F991B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+ClTWebservice.h"; path = "ClearTokenApp/Utility/NSURLRequest+ClTWebservice.h"; sourceTree = "<group>"; };
+		5E840F9A1B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+ClTWebservice.m"; path = "ClearTokenApp/Utility/NSURLRequest+ClTWebservice.m"; sourceTree = "<group>"; };
+		5E840FA11B05F49600A03F61 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E840FA41B05FDDE00A03F61 /* ClTDeviceiInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTDeviceiInfoModel.h; sourceTree = "<group>"; };
+		5E840FA51B05FDDE00A03F61 /* ClTDeviceiInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTDeviceiInfoModel.m; sourceTree = "<group>"; };
+		5E840FAC1B06045E00A03F61 /* ClTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTHomeViewController.h; sourceTree = "<group>"; };
+		5E840FAD1B06045E00A03F61 /* ClTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTHomeViewController.m; sourceTree = "<group>"; };
+		5E840FAF1B0618B500A03F61 /* ClTHomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTHomeViewCell.h; sourceTree = "<group>"; };
+		5E840FB01B0618B500A03F61 /* ClTHomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTHomeViewCell.m; sourceTree = "<group>"; };
+		5E840FB31B0631C400A03F61 /* ClTBLEServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTBLEServices.h; sourceTree = "<group>"; };
+		5E840FB41B0631C400A03F61 /* ClTBLEServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTBLEServices.m; sourceTree = "<group>"; };
+		5E84B6DD1B0DFAAE00B85B0E /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		5E84B6DF1B0E12D200B85B0E /* ClTPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTPhoneViewController.h; sourceTree = "<group>"; };
+		5E84B6E01B0E12D200B85B0E /* ClTPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTPhoneViewController.m; sourceTree = "<group>"; };
+		947388851B068FC4007208D1 /* ClTParkingDeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTParkingDeviceInfoViewController.h; sourceTree = "<group>"; };
+		947388861B068FC4007208D1 /* ClTParkingDeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTParkingDeviceInfoViewController.m; sourceTree = "<group>"; };
+		9473888A1B087EEC007208D1 /* PaymentSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentSuccessViewController.h; sourceTree = "<group>"; };
+		9473888B1B087EEC007208D1 /* PaymentSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentSuccessViewController.m; sourceTree = "<group>"; };
+		9473888D1B08ADAF007208D1 /* ClearTokenApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClearTokenApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		9473889B1B08FB95007208D1 /* ClTTokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClTTokenModel.h; sourceTree = "<group>"; };
+		9473889C1B08FB95007208D1 /* ClTTokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClTTokenModel.m; sourceTree = "<group>"; };
+		947388A21B096F79007208D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E840F5E1B05EA6900A03F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E840FA21B05F49600A03F61 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7E7FA71B0E0D810035413A /* BluethoothKit */ = {
+			isa = PBXGroup;
+			children = (
+				1D7E7FA81B0E0D810035413A /* CBUUID+BlueKit.h */,
+				1D7E7FA91B0E0D810035413A /* CBUUID+BlueKit.m */,
+				1D7E7FAA1B0E0D810035413A /* BlueKit.h */,
+				1D7E7FAB1B0E0D810035413A /* BlueKit.m */,
+			);
+			path = BluethoothKit;
+			sourceTree = "<group>";
+		};
+		1D7E7FAC1B0E0D810035413A /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				1D7E7FAD1B0E0D810035413A /* BlueBlocks.h */,
+				1D7E7FAE1B0E0D810035413A /* CentralManager.h */,
+				1D7E7FAF1B0E0D810035413A /* CentralManager.m */,
+				1D7E7FB01B0E0D810035413A /* Peripheral.h */,
+				1D7E7FB11B0E0D810035413A /* Peripheral.m */,
+			);
+			path = Central;
+			sourceTree = "<group>";
+		};
+		5E6D156C1B0A4B4B007EBC43 /* Proccessing */ = {
+			isa = PBXGroup;
+			children = (
+				5E6D15691B0A32D7007EBC43 /* ClTLoadingActivity.h */,
+				5E6D156A1B0A32D7007EBC43 /* ClTLoadingActivity.m */,
+			);
+			name = Proccessing;
+			sourceTree = "<group>";
+		};
+		5E840F581B05EA6900A03F61 = {
+			isa = PBXGroup;
+			children = (
+				5E840F631B05EA6900A03F61 /* ClearTokenApp */,
+				5E840FA31B05F5F800A03F61 /* ClearToken_lib */,
+				5E840F7D1B05EA6900A03F61 /* ClearTokenAppTests */,
+				5E840F621B05EA6900A03F61 /* Products */,
+				9473888D1B08ADAF007208D1 /* ClearTokenApp-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		5E840F621B05EA6900A03F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F611B05EA6900A03F61 /* ClearTokenApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E840F631B05EA6900A03F61 /* ClearTokenApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E7707121B0CB3D600D39250 /* Utility.h */,
+				5E7707131B0CB3D600D39250 /* Utility.m */,
+				5E6D156C1B0A4B4B007EBC43 /* Proccessing */,
+				5E840FAA1B0603CD00A03F61 /* Controller */,
+				5E840F711B05EA6900A03F61 /* Images.xcassets */,
+				5E840F731B05EA6900A03F61 /* LaunchScreen.xib */,
+				5E84B6DD1B0DFAAE00B85B0E /* Images-2.xcassets */,
+				5E840F641B05EA6900A03F61 /* Supporting Files */,
+			);
+			path = ClearTokenApp;
+			sourceTree = "<group>";
+		};
+		5E840F641B05EA6900A03F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F651B05EA6900A03F61 /* Info.plist */,
+				5E840F661B05EA6900A03F61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E840F7D1B05EA6900A03F61 /* ClearTokenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F801B05EA6900A03F61 /* ClearTokenAppTests.m */,
+				5E840F7E1B05EA6900A03F61 /* Supporting Files */,
+			);
+			path = ClearTokenAppTests;
+			sourceTree = "<group>";
+		};
+		5E840F7E1B05EA6900A03F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F7F1B05EA6900A03F61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E840F8E1B05EB0C00A03F61 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F8F1B05EB0C00A03F61 /* ClTReachability.h */,
+				5E840F901B05EB0C00A03F61 /* ClTReachability.m */,
+			);
+			name = Reachability;
+			path = ClearTokenApp/Reachability;
+			sourceTree = "<group>";
+		};
+		5E840F911B05EB0C00A03F61 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F941B05EB0C00A03F61 /* ClTUtility.h */,
+				5E840F951B05EB0C00A03F61 /* ClTUtility.m */,
+			);
+			name = Utility;
+			path = ClearTokenApp/Utility;
+			sourceTree = "<group>";
+		};
+		5E840FA01B05EE9600A03F61 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F921B05EB0C00A03F61 /* ClTDataModel.h */,
+				5E840F931B05EB0C00A03F61 /* ClTDataModel.m */,
+				5E840F961B05EB0C00A03F61 /* ClTWebservice.h */,
+				5E840F971B05EB0C00A03F61 /* ClTWebservice.m */,
+				5E840F991B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.h */,
+				5E840F9A1B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.m */,
+				5E840F981B05EB0C00A03F61 /* Constant.h */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		5E840FA31B05F5F800A03F61 /* ClearToken_lib */ = {
+			isa = PBXGroup;
+			children = (
+				5E840FAB1B0603E100A03F61 /* model */,
+				5E840FB21B06314900A03F61 /* BLE */,
+				5E840FA01B05EE9600A03F61 /* Service */,
+				5E840F8E1B05EB0C00A03F61 /* Reachability */,
+				5E840F911B05EB0C00A03F61 /* Utility */,
+				5E840FA11B05F49600A03F61 /* SystemConfiguration.framework */,
+			);
+			name = ClearToken_lib;
+			sourceTree = "<group>";
+		};
+		5E840FAA1B0603CD00A03F61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E840F681B05EA6900A03F61 /* AppDelegate.h */,
+				5E840F691B05EA6900A03F61 /* AppDelegate.m */,
+				5E84B6DF1B0E12D200B85B0E /* ClTPhoneViewController.h */,
+				5E84B6E01B0E12D200B85B0E /* ClTPhoneViewController.m */,
+				5E840FAC1B06045E00A03F61 /* ClTHomeViewController.h */,
+				5E840FAD1B06045E00A03F61 /* ClTHomeViewController.m */,
+				5E840FAF1B0618B500A03F61 /* ClTHomeViewCell.h */,
+				5E840FB01B0618B500A03F61 /* ClTHomeViewCell.m */,
+				947388851B068FC4007208D1 /* ClTParkingDeviceInfoViewController.h */,
+				947388861B068FC4007208D1 /* ClTParkingDeviceInfoViewController.m */,
+				9473888A1B087EEC007208D1 /* PaymentSuccessViewController.h */,
+				9473888B1B087EEC007208D1 /* PaymentSuccessViewController.m */,
+				947388A11B096F79007208D1 /* Main.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5E840FAB1B0603E100A03F61 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5E840FA41B05FDDE00A03F61 /* ClTDeviceiInfoModel.h */,
+				5E840FA51B05FDDE00A03F61 /* ClTDeviceiInfoModel.m */,
+				9473889B1B08FB95007208D1 /* ClTTokenModel.h */,
+				9473889C1B08FB95007208D1 /* ClTTokenModel.m */,
+			);
+			name = model;
+			path = ClearTokenApp;
+			sourceTree = "<group>";
+		};
+		5E840FB21B06314900A03F61 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1D7E7FA71B0E0D810035413A /* BluethoothKit */,
+				1D7E7FAC1B0E0D810035413A /* Central */,
+				1D7E7F9E1B0E0CB30035413A /* NSData+Hex.h */,
+				1D7E7F9F1B0E0CB30035413A /* NSData+Hex.m */,
+				5E840FB31B0631C400A03F61 /* ClTBLEServices.h */,
+				5E840FB41B0631C400A03F61 /* ClTBLEServices.m */,
+			);
+			name = BLE;
+			path = ClearTokenApp/Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E840F601B05EA6900A03F61 /* ClearTokenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E840F841B05EA6900A03F61 /* Build configuration list for PBXNativeTarget "ClearTokenApp" */;
+			buildPhases = (
+				5E840F5D1B05EA6900A03F61 /* Sources */,
+				5E840F5E1B05EA6900A03F61 /* Frameworks */,
+				5E840F5F1B05EA6900A03F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearTokenApp;
+			productName = ClearTokenApp;
+			productReference = 5E840F611B05EA6900A03F61 /* ClearTokenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E840F591B05EA6900A03F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ClearToken;
+				TargetAttributes = {
+					5E840F601B05EA6900A03F61 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = MP3NQC9CGC;
+					};
+				};
+			};
+			buildConfigurationList = 5E840F5C1B05EA6900A03F61 /* Build configuration list for PBXProject "ClearTokenApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E840F581B05EA6900A03F61;
+			productRefGroup = 5E840F621B05EA6900A03F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E840F601B05EA6900A03F61 /* ClearTokenApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E840F5F1B05EA6900A03F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E840F751B05EA6900A03F61 /* LaunchScreen.xib in Resources */,
+				5E840F721B05EA6900A03F61 /* Images.xcassets in Resources */,
+				5E84B6DE1B0DFAAE00B85B0E /* Images-2.xcassets in Resources */,
+				947388A31B096F79007208D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E840F5D1B05EA6900A03F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7E7FB51B0E0D810035413A /* CentralManager.m in Sources */,
+				1D7E7FA01B0E0CB30035413A /* NSData+Hex.m in Sources */,
+				5E840FAE1B06045E00A03F61 /* ClTHomeViewController.m in Sources */,
+				5E6D156B1B0A32D7007EBC43 /* ClTLoadingActivity.m in Sources */,
+				5E840FB51B0631C400A03F61 /* ClTBLEServices.m in Sources */,
+				5E840F9B1B05EB0C00A03F61 /* ClTReachability.m in Sources */,
+				5E7707141B0CB3D600D39250 /* Utility.m in Sources */,
+				5E840F9F1B05EB0C00A03F61 /* NSURLRequest+ClTWebservice.m in Sources */,
+				9473888C1B087EEC007208D1 /* PaymentSuccessViewController.m in Sources */,
+				9473889D1B08FB95007208D1 /* ClTTokenModel.m in Sources */,
+				5E84B6E11B0E12D200B85B0E /* ClTPhoneViewController.m in Sources */,
+				5E840F9C1B05EB0C00A03F61 /* ClTDataModel.m in Sources */,
+				5E840F6A1B05EA6900A03F61 /* AppDelegate.m in Sources */,
+				5E840FA61B05FDDE00A03F61 /* ClTDeviceiInfoModel.m in Sources */,
+				1D7E7FB61B0E0D810035413A /* Peripheral.m in Sources */,
+				5E840FB11B0618B500A03F61 /* ClTHomeViewCell.m in Sources */,
+				5E840F9D1B05EB0C00A03F61 /* ClTUtility.m in Sources */,
+				947388871B068FC4007208D1 /* ClTParkingDeviceInfoViewController.m in Sources */,
+				1D7E7FB31B0E0D810035413A /* CBUUID+BlueKit.m in Sources */,
+				5E840F9E1B05EB0C00A03F61 /* ClTWebservice.m in Sources */,
+				1D7E7FB41B0E0D810035413A /* BlueKit.m in Sources */,
+				5E840F671B05EA6900A03F61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E840F731B05EA6900A03F61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E840F741B05EA6900A03F61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		947388A11B096F79007208D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947388A21B096F79007208D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E840F821B05EA6900A03F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F467AA5A-65CC-4B00-A758-DA73FCF9E596";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E840F831B05EA6900A03F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "F467AA5A-65CC-4B00-A758-DA73FCF9E596";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E840F851B05EA6900A03F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				INFOPLIST_FILE = ClearTokenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F467AA5A-65CC-4B00-A758-DA73FCF9E596";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClearTokenApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E840F861B05EA6900A03F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjeet Bansal (8ZSFFQ2FGQ)";
+				INFOPLIST_FILE = ClearTokenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F467AA5A-65CC-4B00-A758-DA73FCF9E596";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClearTokenApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E840F5C1B05EA6900A03F61 /* Build configuration list for PBXProject "ClearTokenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E840F821B05EA6900A03F61 /* Debug */,
+				5E840F831B05EA6900A03F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E840F841B05EA6900A03F61 /* Build configuration list for PBXNativeTarget "ClearTokenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E840F851B05EA6900A03F61 /* Debug */,
+				5E840F861B05EA6900A03F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E840F591B05EA6900A03F61 /* Project object */;
+}
